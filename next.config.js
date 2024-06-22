@@ -2,7 +2,6 @@ import {withSentryConfig} from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    basePath: "./",
     reactStrictMode: true,
     typescript: {
         ignoreBuildErrors: true,
