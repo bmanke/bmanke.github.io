@@ -9,7 +9,7 @@ const nextConfig = {
     }
 };
 
-export default nextConfig;
+export { nextConfig };
 
 export default withSentryConfig(withSentryConfig(withSentryConfig(withSentryConfig(nextConfig, {
 // For all available options, see:
