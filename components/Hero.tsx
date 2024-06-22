@@ -2,6 +2,7 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa';
+import { TypewriterEffect } from './ui/typewriter-effect';
 
 const Hero = () => {
   return (
@@ -21,6 +22,7 @@ const Hero = () => {
           <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
             Dynamic Web Magic with Next.js
           </h2>
+
 
           <TextGenerateEffect 
           className="text-center text-[40px] md:text-5xl lg:text-6xl"

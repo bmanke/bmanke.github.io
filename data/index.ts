@@ -18,7 +18,7 @@ export const gridItems = [
     },
     {
         id: 2,
-        title: "I'm very flexible with time zone communications",
+        title: "I can easily accommodate different time zones for communication.",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
     {
         id: 5,
-        title: "Currently building a JS Animation library",
+        title: "Currently building various JS projects",
         description: "The Inside Scoop",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -107,15 +107,15 @@ export const projects = [
 export const testimonials = [
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+            "Brent has not only been incredibly professional throughout since the start of my company, they have been found to become a pillar to the foundation of my success. There is no going wrong by hiring them, as the work is precise and always on time. I've been working with them since 2015 and their experience still shines today. You will get your moneys worth with Brent!",
+        name: "Zein Alaouie",
+        title: "Owner/Operator HypestTeam",
     },
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+            "I've been working with Brent for many years, and they are always very diligent and work hard to make sure everything is completed on schedule and on budget. Highly recommended!",
+        name: "Ron Manke",
+        title: "Owner/Operator RainShadow Marketing/Perceptable",
     },
     {
         quote:
@@ -140,21 +140,21 @@ export const testimonials = [
 export const companies = [
     {
         id: 1,
-        name: "cloudinary",
-        img: "/cloud.svg",
-        nameImg: "/cloudName.svg",
+        name: "hypestteam",
+        img: "/hypestteam-logo.webp",
+        nameImg: "/hypestteam-name.webp",
     },
     {
         id: 2,
-        name: "appwrite",
-        img: "/app.svg",
-        nameImg: "/appName.svg",
+        name: "",
+        img: "/shopify-logo.svg",
+        nameImg: "/shopify-text.svg",
     },
     {
         id: 3,
-        name: "HOSTINGER",
-        img: "/host.svg",
-        nameImg: "/hostName.svg",
+        name: "Wordpress",
+        img: "/wordpress-logo.webp",
+        nameImg: "/wordpress-name.webp",
     },
     {
         id: 4,
@@ -187,15 +187,15 @@ export const workExperience = [
     },
     {
         id: 3,
-        title: "Freelance Web Dev Project",
+        title: "Freelance Web Developer",
         desc: "Led the dev of a website for a client, from initial concept to deployment on the internet.",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp3.svg",
     },
     {
         id: 4,
-        title: "Lead Frontend Developer",
-        desc: "Developed and maintained user-facing features using modern frontend technologies.",
+        title: "Shopify Developer",
+        desc: "Developed a Shopify website for clients using various themes and technologies.",
         className: "md:col-span-2",
         thumbnail: "/exp4.svg",
     },

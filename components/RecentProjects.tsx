@@ -1,7 +1,8 @@
-import React from 'react'
-import { projects } from '@/data'
-import { PinContainer } from './ui/3d-pin'
-import { FaLocationArrow } from 'react-icons/fa'
+// RecentProjects component
+import React from 'react';
+import { projects } from '@/data';
+import { PinContainer } from './ui/3d-pin';
+import { FaLocationArrow } from 'react-icons/fa';
 
 const RecentProjects = () => {
     return (
@@ -11,17 +12,12 @@ const RecentProjects = () => {
                 <span className="text-purple">Recent Projects</span>
             </h1>
             <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-10'>
-                {projects.map(({ id,
-                    title,
-                    des,
-                    img,
-                    iconLists,
-                    link }) => (
+                {projects.map(({ id, title, des, img, iconLists, link }) => (
                     <div key={id} className='sm:h-[41rem] sm:w-[570px] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center w-[80vw]'>
                         <PinContainer title={link} href={link}>
                             <div className='relative flex items-center justify-center sm:w-[570px] sm:h-[40vh] w-[80vw] overflow-hidden h[30vh] lg:h-[30vh] mb-10'>
                                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162D]">
-                                    <img src="/bg.png" alt="bg-img"/>
+                                    <img src="/bg.png" alt="bg-img" />
                                 </div>
                                 <img
                                     src={img}
@@ -54,8 +50,8 @@ const RecentProjects = () => {
                                     ))}
                                 </div>
                                 <div className="flex justify-center items-center">
-                                    <p className="flex lg:text-xl md:text-xs text-sm text-purple">Check Live Site</p>
-                                    <FaLocationArrow className="ms-3" color="#CBACF9"/>
+                                    <a href={link} className="flex lg:text-xl md:text-xs text-sm text-purple">Check Live Site</a>
+                                    <FaLocationArrow className="ms-3" color="#CBACF9" />
                                 </div>
                             </div>
                         </PinContainer>
@@ -66,4 +62,4 @@ const RecentProjects = () => {
     )
 }
 
-export default RecentProjects
+export default RecentProjects;
