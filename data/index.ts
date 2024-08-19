@@ -205,7 +205,7 @@ export const socialMedia = [
     {
         id: 1,
         img: "/git.svg",
-        link: "www.github.com/profile"
+        link: "https://github.com/bmanke?tab=repositories"
     },
     {
         id: 2,
