@@ -210,11 +210,11 @@ export const socialMedia = [
     {
         id: 2,
         img: "/twit.svg",
-        link: "www.twitter.com/profile"
+        link: "https://x.com/AeonianRose"
     },
     {
         id: 3,
         img: "/link.svg",
-        link: "www.linkedin.com/profile"
+        link: "https://www.linkedin.com/in/brent-manke-a41b453b/"
     },
 ];
