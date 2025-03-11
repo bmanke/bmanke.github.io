@@ -2,39 +2,11 @@ import React from "react";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Image from "next/image";
-
-interface Client {
-  name: string;
-  url: string;
-  description: string;
-  imageUrl: string; // Added imageUrl property
-}
+import { clients, Client } from "./index";
 
 export default function Example() {
-  const clients: Client[] = [
-    {
-      name: "Slingshot Aerospace",
-      url: "https://slingshotaerospace.com",
-      description:
-        "Pioneering space sustainability and orbital safety with cutting-edge technologies",
-      imageUrl: "/images/clients/slingshot.png" // Add specific image for Slingshot
-    },
-    {
-      name: "Inversion Space",
-      url: "https://inversionspace.com",
-      description:
-        "Developing rapid earth-to-space delivery with reentry capsule technology",
-      imageUrl: "/images/clients/inversion.png" // Add specific image for Inversion
-    },
-    {
-      name: "Booz Allen",
-      url: "https://www.boozallen.com",
-      description:
-        "Providing strategic consulting and technology solutions for government and commercial organizations",
-      imageUrl: "/images/clients/boozallen.png" // Add specific image for Booz Allen
-    },
-  ];
-
+  // The clients array is now imported from index.ts
+  
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
