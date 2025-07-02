@@ -83,7 +83,7 @@ export const projects = [
         des: "A clone of Zentry's website using React, Vite, TailwindCSS and GSAP for animations.",
         img: "/hypestzentry.jpg",
         link: "https://bmanke.github.io/awwwards/",
-    }
+    },
 ];
 
 export const testimonials = [
