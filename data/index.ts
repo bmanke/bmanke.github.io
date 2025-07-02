@@ -120,18 +120,6 @@ export const companies = [
         img: "/wordpress-logo.webp",
         nameImg: "/wordpress-name.webp",
     },
-    {
-        id: 4,
-        name: "stream",
-        img: "/s.svg",
-        nameImg: "/streamName.svg",
-    },
-    {
-        id: 5,
-        name: "docker.",
-        img: "/dock.svg",
-        nameImg: "/dockerName.svg",
-    },
 ];
 
 export const workExperience = [
