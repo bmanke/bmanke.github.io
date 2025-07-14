@@ -1,4 +1,6 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+/* Optionally import your config file if needed */
+@config "./tailwind.config.ts";
 
 @custom-variant dark (&:is(.dark *));
 
