@@ -2,7 +2,6 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa';
-import { TypewriterEffect } from './ui/typewriter-effect';
 
 const Hero = () => {
   return (
