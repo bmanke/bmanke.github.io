@@ -1,6 +1,6 @@
 // RecentProjects component
 import React from 'react';
-import { projects } from '@/data';
+import { projects } from '../data';
 import { PinContainer } from './ui/3d-pin';
 import { FaLocationArrow } from 'react-icons/fa';
 
