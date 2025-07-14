@@ -1,8 +1,7 @@
-/** @type {import('postcss-load-config').Config} */
-const config = {
-  plugins: {
-    tailwindcss: {},
-  },
-};
-
-export default config;
+export default {
+      plugins: {
+        'tailwindcss': {},
+        'postcss-flexbugs-fixes': {}, // Optional, depending on your needs
+        // Remove autoprefixer if it's present
+      },
+    };
