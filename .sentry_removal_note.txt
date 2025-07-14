@@ -1,0 +1,6 @@
+Sentry has been removed from this project. The following files can be deleted if no longer needed:
+- sentry.client.config.ts
+- sentry.edge.config.ts
+- sentry.server.config.ts
+
+Also, remove '@sentry/nextjs' from dependencies in package.json if present.
