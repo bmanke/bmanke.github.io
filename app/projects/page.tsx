@@ -1,7 +1,6 @@
 "use client"
 import ProjectsHero from "@/components/ProjectsHero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
-import { FaHome } from 'react-icons/fa';
 import Grid from "@/components/Grid"
 import Footer from "@/components/Footer";
 import { navItems } from "@/data";
