@@ -3,6 +3,7 @@ import React from 'react';
 import { projects } from '@/data';
 import { PinContainer } from './ui/3d-pin';
 import { FaLocationArrow } from 'react-icons/fa';
+import Image from 'next/image';
 
 const RecentProjects = () => {
     return (
@@ -31,10 +32,51 @@ const RecentProjects = () => {
                             <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
                                 {des}
                             </p>
+                            
+                            {/* Technology Stack for Basic HTML/CSS Project */}
+                            {id === 1 && (
+                                <div className="flex items-center gap-2 mt-4 mb-2">
+                                    <div className="flex items-center justify-center w-8 h-8 rounded-full border border-gray-600">
+                                        <Image src="/html5.svg" alt="JavaScript" width={20} height={20} />
+                                    </div>
+                                    <div className="flex items-center justify-center w-8 h-8 rounded-full border border-gray-600">
+                                        <Image src="/css3.svg" alt="JavaScript" width={20} height={20} />
+                                    </div>
+                                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#F7DF1E] border border-gray-600">
+                                        <Image src="/js.svg" alt="JavaScript" width={20} height={20} />
+                                    </div>
+                                </div>
+                            )}
+
+                            {/* Technology Stack for Zentry */}
+                            {id === 2 && (
+                                <div className="flex items-center gap-2 mt-4 mb-2">
+                                    <div className="flex items-center justify-center w-8 h-8 rounded-full border border-gray-600">
+                                        <Image src="/re.svg" alt="React" width={20} height={20} />
+                                    </div>
+                                    <div className="flex items-center justify-center w-8 h-8 rounded-full border border-gray-600">
+                                        <Image src="/tail.svg" alt="TailwindCSS" width={20} height={20} />
+                                    </div>
+                                    <div className="flex items-center justify-center w-8 h-8 rounded-full border border-gray-600">
+                                        <Image src="/gsap.svg" alt="GSAP" width={20} height={20} />
+                                    </div>
+                                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#F7DF1E] border border-gray-600">
+                                        <Image src="/js.svg" alt="JavaScript" width={20} height={20} />
+                                    </div>
+                                </div>
+                            )}
+                            
                             <div className="flex items-center justify-between mt-7 mb-3">
-                                <div className="flex justify-center items-center">
+                                <div className="flex justify-center items-center gap-4">
                                     <a href={link} className="flex lg:text-xl md:text-xs text-sm text-purple">Check Live Site</a>
-                                    <FaLocationArrow className="ms-3" color="#CBACF9" />
+                                    <FaLocationArrow className="ms-1" color="#CBACF9" />
+                                    {id === 2 && (
+                                        <>
+                                            <span className="text-gray-400">|</span>
+                                            <a href="/projects/zentry" className="flex lg:text-xl md:text-xs text-sm text-purple">Case Study</a>
+                                            <FaLocationArrow className="ms-1" color="#CBACF9" />
+                                        </>
+                                    )}
                                 </div>
                             </div>
                         </PinContainer>
