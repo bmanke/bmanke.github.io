@@ -87,3 +87,40 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+
+/* Mobile-friendly code block styles */
+@layer components {
+  .code-block-mobile {
+    font-size: 0.75rem;
+    line-height: 1.25;
+  }
+  
+  @media (min-width: 640px) {
+    .code-block-mobile {
+      font-size: 0.875rem;
+      line-height: 1.5;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .code-block-mobile {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  }
+}
+
+/* Ensure code blocks don't overflow on mobile */
+@media (max-width: 640px) {
+  pre {
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+  
+  code {
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+}

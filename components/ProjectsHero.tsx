@@ -3,6 +3,7 @@ import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow, FaExternalLinkAlt } from 'react-icons/fa';
 import { GoCommandPalette } from "react-icons/go";
+import TechPills, { commonTechStacks } from "@/components/ui/TechPills";
 
 const ProjectsHero = () => {
   return (
@@ -29,7 +30,10 @@ const ProjectsHero = () => {
           words="Zentry - Where AI Meets Gaming User Experiences"/>
 
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>A modern gaming platform with interactive elements</p>
-
+          <TechPills 
+            technologies={commonTechStacks.reactVite} 
+            className="mt-4 mb-4"
+          />
           <a href="#about">
             <MagicButton 
             title="Live Demo"
