@@ -238,13 +238,27 @@ export default function ZentryProject() {
                         </Card>
                     </div>
 
-                    <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-purple mb-6 mt-8">Impact and Results</h2>
-                    <ul>
-                        <li>• Achieved a smooth framerate for animations across devices</li>
-                        <li>• Implemented responsive design across all screen sizes</li>
-                        <li>• Created an engaging user experience</li>
-                        <li>• Successfully integrated complex animations with GSAP</li>
-                    </ul>
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
+                        <div>
+                            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-purple mb-6">Impact & Results</h2>
+                            <ul className="text-gray-300 space-y-3">
+                                <li>• Achieved smooth 60fps animations across devices</li>
+                                <li>• Implemented responsive design across all screen sizes</li>
+                                <li>• Created engaging user experience</li>
+                                <li>• Successfully integrated complex animations</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-purple mb-6">Future Improvements</h2>
+                            <ul className="text-gray-300 space-y-3">
+                                <li>• Implement server-side rendering</li>
+                                <li>• Add more interactive WebGL elements</li>
+                                <li>• Enhance accessibility features</li>
+                                <li>• Implement progressive web app capabilities</li>
+                            </ul>
+                        </div>
+                    </div>
                 </CodeBlock>
                 
                 <Footer />
