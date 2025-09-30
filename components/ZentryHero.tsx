@@ -5,7 +5,7 @@ import { FaLocationArrow, FaExternalLinkAlt } from 'react-icons/fa';
 import { GoCommandPalette } from "react-icons/go";
 import TechPills, { commonTechStacks } from "@/components/ui/TechPills";
 
-const ProjectsHero = () => {
+const ZentryHero = () => {
   return (
     <div className='pb-20 pt-36'>
       <div>
@@ -34,24 +34,26 @@ const ProjectsHero = () => {
             technologies={commonTechStacks.reactVite} 
             className="mt-4 mb-4"
           />
-          <a href="#about">
-            <MagicButton 
-            title="Live Demo"
-            icon={<FaExternalLinkAlt />} 
-            position='right'
-            />
-          </a>
-          <a href="#about">
-            <MagicButton 
-            title="Source Code"
-            icon={<GoCommandPalette />} 
-            position='right'
-            />
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a href="https://bmanke.github.io/awwwards/" target="_blank" rel="noopener noreferrer">
+              <MagicButton 
+              title="Live Demo"
+              icon={<FaExternalLinkAlt />} 
+              position='right'
+              />
+            </a>
+            <a href="https://github.com/bmanke/awwwards" target="_blank" rel="noopener noreferrer">
+              <MagicButton 
+              title="Source Code"
+              icon={<GoCommandPalette />} 
+              position='right'
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
   )
 }
 
-export default ProjectsHero
+export default ZentryHero
