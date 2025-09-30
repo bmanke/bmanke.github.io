@@ -8,6 +8,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Brent's Portfolio",
   description: "Brent's Modern Portfolio",
+  icons: {
+    icon: '/AeonianRoseLogo.png',
+    shortcut: '/AeonianRoseLogo.png',
+    apple: '/AeonianRoseLogo.png',
+  },
 };
 
 export default function RootLayout({
