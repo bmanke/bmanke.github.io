@@ -143,7 +143,6 @@ export default function Projects() {
               <ul className="text-gray-300 text-sm space-y-2">
                 <li>• Gained experience with Vite</li>
                 <li>• Improved responsive design understanding</li>
-                <li>• Enhanced web audio API knowledge</li>
               </ul>
             </Card>
           </div>
