@@ -84,6 +84,38 @@ export const projects = [
         img: "/hypestzentry.jpg",
         link: "https://bmanke.github.io/awwwards/",
     },
+    {
+        id: 3,
+        title: "Borhane Alaouie Memorial Site",
+        des: "A memorial site for a client's father. Using React, Vite, TailwindCSS and NextJS.",
+        img: "/borhanealaouie.jpg",
+        link: "https://borhanealaouie.com/",
+    },
+    {
+        id: 4,
+        title: "Dattebayo Schedule",
+        des: "An anime-chart-like schedule I made for fun to get seasonal " +
+            "anime's and display in local time what's airing.",
+        img: "/dattebayo-schedule.jpg",
+        link: "https://bmanke.github.io/dattebayo-schedule/",
+    },
+    {
+        id: 5,
+        title: "MovieLand",
+        des: "A search of TMDB for movies, built with React and TailwindCSS. Has a ranking depending on search.",
+        img: "/movieland.jpg",
+        link: "https://bmanke.github.io/MovieLand/",
+    },
+    {
+        id: 6,
+        title: "Software Development Resources",
+        des: "A website that provides resources for software development. Built with Astro, Svelte and TailwindCSS.",
+        img: "/sdev-resources.jpg",
+        link: "https://bmanke.github.io/SDEV-Resources/",
+    },
+
+
+
 ];
 
 export const testimonials = [
